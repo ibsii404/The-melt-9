@@ -1,0 +1,34 @@
+# robots.txt for THE MELT 9
+
+User-agent: *
+Allow: /
+Disallow: /dashboard/
+Disallow: /kitchen/
+Disallow: /checkout/
+Disallow: /cart/
+Disallow: /login/
+Disallow: /register/
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://themelt9.com/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 10
+
+# Google Image
+User-agent: Googlebot-Image
+Allow: /*
+
+# Googlebot
+User-agent: Googlebot
+Allow: /
+Disallow: /*?*  # Prevent crawling of URLs with parameters
+
+# Bingbot
+User-agent: bingbot
+Allow: /
+Disallow: /*?*
+
+# Host
+Host: https://themelt9.com
